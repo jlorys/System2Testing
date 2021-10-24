@@ -30,7 +30,7 @@ class Program
                 if (fourdigitnumber != number) 
                 { 
                     Console.ForegroundColor = ConsoleColor.Red;
-                    Console.WriteLine(" Wrong " + i + ", " + fourdigitnumber + " != " + number); 
+                    Console.WriteLine(" Wrong " + i + ", " + number + " != " + fourdigitnumber); 
                     Console.ResetColor();
                     number = "";
                     correctSeriesCounter = 0;
